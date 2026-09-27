@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Xcode: 개인 설정 (열어둔 탭, 브레이크포인트, 개인 scheme 등)
+xcuserdata/
+
+# Xcode: 빌드 산출물
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# 앱 프로젝트에서는 Package.resolved를 커밋한다 (Gradle lockfile처럼 버전 고정)
+.build/
+.swiftpm/
+
+# CocoaPods
+# Pods/ 커밋 여부는 팀마다 다름. 지금은 CocoaPods를 쓰지 않음
+# Pods/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# 비밀 값 (API 키 등). 영화 API 연동할 때 사용
+Secrets.xcconfig
